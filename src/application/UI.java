@@ -1,5 +1,7 @@
 package application;
 
+import boardgame.Piece;
+import boardgame.Position;
 import chess.ChessPeace;
 public class UI {
 	
@@ -21,6 +23,8 @@ public class UI {
 			System.out.print(piece);
 		}
 		System.out.print(" ");
+		
 	}
-
+	
+	
 }
