@@ -13,7 +13,7 @@ public class ChessMatch {
 		 ChessPeace[][] mat = new ChessPeace[board.getRows()][board.getColumns()];
 		 for (int i=0; i<board.getRows(); i++) {
 			 for (int j=0; j<board.getColumns(); j++) {
-				 mat[i][j]= (ChessPeace) board.(i,j);
+				 mat[i][j]= (ChessPeace) board.piece(i,j);
 			 }
 		 }
 		 return mat;
